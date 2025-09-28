@@ -18,8 +18,12 @@ Das Programm läuft vollständig lokal und hat keine Schnittstelle zum Internet.
 Fehler im Programm sind nicht auszuschließen, was zu Datenverlust führen könnte. Bitte Fehler melden!
 
 ## Mögliche Features für die Zukunft?
+- automatischer Installer 
 - Möglichkeit Kartenauschnitte über openstreetmaps einzufügen, in welche der Bereitschaftsraum eingezeichnet werden kann.
 - mehrere Bereitschafträume: extra Spalte um anzugeben, im welchem Bereitschaftraum Fahrzeug steht oder extra Fenster für jeden Bereitschaftsraum
 - Notizfeld um Infos zu notieren, die während des Einsatzes eingehen
 - Verfügbarkeit des Programms in mehreren Sprachen
-- 
+
+# Wie kannst du das Programm benutzen? 
+Momentan ist dies leider noch relativ umständlich und erfordert ein wenig Kenntnisse von Phyton und den damti verbundenen Eigenheiten. Du musst als erstes Python installieren und bei der Installtion darauf achten, dass du ankilckst, dass eine global path variable erstellt wird. Um Python nutzen zu können, musst du eine virtual enviornment anlegen (venv). Nachdem du diese aktiviert hast, musst du die Bibliotheken in requirements.txt installieren. Nun kannst du das Dokument start.py über die Konsole ausführen. Es kann sein, dass dies zu einem Fehler führt, weil Windows das Asuführen von Skripten verhindert. Diese Einstellungen müssen dann gegebenenfalls von dir angepasst werden. 
+Das ist natürlich sehr kurz gefasst. Aber zu allen diesen Schritten gibt es unzählige Anleiten auf diversen Internetseiten, da es sich um basic Dinge handelt. 
