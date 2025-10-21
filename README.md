@@ -8,10 +8,10 @@ Alle aktiven Fahrzeuge werden dann in einer großen Tabelle angezeigt. Aktiven F
 <img width="1901" height="1127" alt="fahrzeug_dashboard" src="https://github.com/user-attachments/assets/e635296e-c5e3-4e26-8121-ffdf176fd41a" />
 
 Alle Informationen werden in einem json-Dateiformat gespeichert, welches den Vorteil aufweist, dass es auch von Hand ausgelesen werden kann, d.h. kein Programm dazu notwendig ist. Zusätzlich kann zu jedem Zeitpunkt die aktuelle Version der Tabelle als pdf exportiert und entsprechend ausgedruckt werden.
-<img width="738" height="988" alt="pdf_demo" src="https://github.com/user-attachments/assets/12ed60d6-0739-47e5-a7a6-65c5ad326c35" />
 
 Alte Einsätze können vom Programm auch wieder eingelesen werden. Die json-Datei kann momentan jedoch nur zur Ansicht geladen werden und die Konvertierung in pdf ist auch nicht möglich.
-<img width="1898" height="1128" alt="einsatz_laden" src="https://github.com/user-attachments/assets/e00b9691-3082-4991-adde-912c868a7b28" />
+<img width="1888" height="1131" alt="einsatz_laden" src="https://github.com/user-attachments/assets/2ab5ad4e-b258-49fd-b90b-730af73e8b4d" />
+
 
 ## Wie kann das Programm verwendet werden? 
 Bei Einsätzen im Katastrophenschutz kann mithilfe dieses Tools ein Bereitschaftsraum im Blick gehalten werden. Alle aktiven Fahrzeuge stehen in einer Liste, welche veränderbar ist. Das Statussystem ermöglicht auch diejenigen Fahrzeuge im Blick zu behalten, die gerade unterwegs sind oder sich auf Anfahrt befinden. Es ist ein relativ abstraktes und simples Tool welches statisch verwendet werden kann. 
