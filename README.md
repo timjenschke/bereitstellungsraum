@@ -2,10 +2,17 @@
 Simples Programm, um die Fahrzeuge eines Bereitschaftsraums zu verwalten. Ein Bereitschaftsraum ist ein Begriff des Katastrophenschutzes und beschreibt einen Ort, wo Einsatzmittel zur schnellen Anfahrt gesammelt werden. Dieses Programm ermöglicht eine einfache Übersicht. 
 
 ## Was kann das Programm? 
-Das Ausführen der Datei start.py lädt ein Programm mit gewöhnlicher grafischer Nutzeroberfläche. Es kann ein Einsatz angelegt werden, welchem Fahrzeuge nach Belieben hinzugefügt werden können. Alle aktiven Fahrzeuge werden dann in einer großen Tabelle angezeigt. Aktiven Fahrzeugen kann ein Status zugewiesen werden, der dann grafisch unterlegt wird. Je nach Einstellungen des Nutzers kann das Statussystem und die zugehörigen Farben beliebig gewählt werden. Die Tabelle kann nach Fahrzeugtyp oder Status sortiert werden. Zu jedem Fahrzeug müssen Informationen zu Kennzeichen und Funkrufname angegeben werden. Zusätzlich können Informationen zu Hiorg, Fahrzeugtyp, Kontaktperson mit Telefonnummer, Anzahl der Transportskapazitäten (liegend und sitzend) eingepflegt werden. 
-Alle Informationen werden in einem json-Dateiformat gespeichert, welches den Vorteil aufweist, dass es auch von Hand ausgelesen werden kann, d.h. kein Programm dazu notwendig ist. Zusätzlich kann zu jedem Zeitpunkt die aktuelle Version der Tabelle als pdf exportiert und entsprechend ausgedruckt werden.
-Alte Einsätze können vom Programm auch wieder eingelesen werden. Die json-Datei kann momentan jedoch nur zur Ansicht geladen werden und die Konvertierung in pdf ist auch nicht möglich.
+Das Ausführen der Datei start.py lädt ein Programm mit gewöhnlicher grafischer Nutzeroberfläche. Es kann ein Einsatz angelegt werden, welchem Fahrzeuge nach Belieben hinzugefügt werden können. 
+<img width="1406" height="841" alt="startbildschirm" src="https://github.com/user-attachments/assets/e667b96f-4887-4574-bf14-48c0442c527f" />
+Alle aktiven Fahrzeuge werden dann in einer großen Tabelle angezeigt. Aktiven Fahrzeugen kann ein Status zugewiesen werden, der dann grafisch unterlegt wird. Je nach Einstellungen des Nutzers kann das Statussystem und die zugehörigen Farben beliebig gewählt werden. Die Tabelle kann nach Fahrzeugtyp oder Status sortiert werden. Zu jedem Fahrzeug müssen Informationen zu Kennzeichen und Funkrufname angegeben werden. Zusätzlich können Informationen zu Hiorg, Fahrzeugtyp, Kontaktperson mit Telefonnummer, Anzahl der Transportskapazitäten (liegend und sitzend) eingepflegt werden. 
 <img width="1901" height="1127" alt="fahrzeug_dashboard" src="https://github.com/user-attachments/assets/e635296e-c5e3-4e26-8121-ffdf176fd41a" />
+
+Alle Informationen werden in einem json-Dateiformat gespeichert, welches den Vorteil aufweist, dass es auch von Hand ausgelesen werden kann, d.h. kein Programm dazu notwendig ist. Zusätzlich kann zu jedem Zeitpunkt die aktuelle Version der Tabelle als pdf exportiert und entsprechend ausgedruckt werden.
+<img width="738" height="988" alt="pdf_demo" src="https://github.com/user-attachments/assets/12ed60d6-0739-47e5-a7a6-65c5ad326c35" />
+
+Alte Einsätze können vom Programm auch wieder eingelesen werden. Die json-Datei kann momentan jedoch nur zur Ansicht geladen werden und die Konvertierung in pdf ist auch nicht möglich.
+<img width="1898" height="1128" alt="einsatz_laden" src="https://github.com/user-attachments/assets/e00b9691-3082-4991-adde-912c868a7b28" />
+
 ## Wie kann das Programm verwendet werden? 
 Bei Einsätzen im Katastrophenschutz kann mithilfe dieses Tools ein Bereitschaftsraum im Blick gehalten werden. Alle aktiven Fahrzeuge stehen in einer Liste, welche veränderbar ist. Das Statussystem ermöglicht auch diejenigen Fahrzeuge im Blick zu behalten, die gerade unterwegs sind oder sich auf Anfahrt befinden. Es ist ein relativ abstraktes und simples Tool welches statisch verwendet werden kann. 
 
