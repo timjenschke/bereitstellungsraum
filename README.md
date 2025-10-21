@@ -1,11 +1,11 @@
 # bereitstellungsraum
-Nutzerfreundliches, simples Programm, um die Fahrzeuge eines Bereitschaftsraums zu verwalten. Ein Bereitschaftsraum ist ein Begriff des Katastrophenschutzes und beschreibt einen Ort, wo Einsatzmittel zur schnellen Anfahrt gesammelt werden. Dieses Programm ermöglicht eine einfache Übersicht. 
+Simples Programm, um die Fahrzeuge eines Bereitschaftsraums zu verwalten. Ein Bereitschaftsraum ist ein Begriff des Katastrophenschutzes und beschreibt einen Ort, wo Einsatzmittel zur schnellen Anfahrt gesammelt werden. Dieses Programm ermöglicht eine einfache Übersicht. 
 
 ## Was kann das Programm? 
 Das Ausführen der Datei start.py lädt ein Programm mit gewöhnlicher grafischer Nutzeroberfläche. Es kann ein Einsatz angelegt werden, welchem Fahrzeuge nach Belieben hinzugefügt werden können. Alle aktiven Fahrzeuge werden dann in einer großen Tabelle angezeigt. Aktiven Fahrzeugen kann ein Status zugewiesen werden, der dann grafisch unterlegt wird. Je nach Einstellungen des Nutzers kann das Statussystem und die zugehörigen Farben beliebig gewählt werden. Die Tabelle kann nach Fahrzeugtyp oder Status sortiert werden. Zu jedem Fahrzeug müssen Informationen zu Kennzeichen und Funkrufname angegeben werden. Zusätzlich können Informationen zu Hiorg, Fahrzeugtyp, Kontaktperson mit Telefonnummer, Anzahl der Transportskapazitäten (liegend und sitzend) eingepflegt werden. 
 Alle Informationen werden in einem json-Dateiformat gespeichert, welches den Vorteil aufweist, dass es auch von Hand ausgelesen werden kann, d.h. kein Programm dazu notwendig ist. Zusätzlich kann zu jedem Zeitpunkt die aktuelle Version der Tabelle als pdf exportiert und entsprechend ausgedruckt werden.
 Alte Einsätze können vom Programm auch wieder eingelesen werden. Die json-Datei kann momentan jedoch nur zur Ansicht geladen werden und die Konvertierung in pdf ist auch nicht möglich.
-
+<img width="1901" height="1127" alt="fahrzeug_dashboard" src="https://github.com/user-attachments/assets/e635296e-c5e3-4e26-8121-ffdf176fd41a" />
 ## Wie kann das Programm verwendet werden? 
 Bei Einsätzen im Katastrophenschutz kann mithilfe dieses Tools ein Bereitschaftsraum im Blick gehalten werden. Alle aktiven Fahrzeuge stehen in einer Liste, welche veränderbar ist. Das Statussystem ermöglicht auch diejenigen Fahrzeuge im Blick zu behalten, die gerade unterwegs sind oder sich auf Anfahrt befinden. Es ist ein relativ abstraktes und simples Tool welches statisch verwendet werden kann. 
 
@@ -15,7 +15,8 @@ Ich habe das Programm in meiner Freizeit geschrieben und bin kein Programmierer.
 
 ## Ist das Programm sicher? 
 Das Programm läuft vollständig lokal und hat keine Schnittstelle zum Internet. Alle Daten werden lokal auf der Festplatte gespeichert.
-Fehler im Programm sind nicht auszuschließen, was zu Datenverlust führen könnte. Bitte Fehler melden!
+Fehler im Programm sind nicht auszuschließen, was zum Verlust oder fehlerhaften Daten führen könnte. Ich bitte darum, Fehler zu melden.
+Benutzung des Programms erfolgt auf eigene Verantwortung. 
 
 ## Mögliche Features für die Zukunft?
 - automatischer Installer 
@@ -25,5 +26,9 @@ Fehler im Programm sind nicht auszuschließen, was zu Datenverlust führen könn
 - Verfügbarkeit des Programms in mehreren Sprachen
 
 # Wie kannst du das Programm benutzen? 
-Momentan ist dies leider noch relativ umständlich und erfordert ein wenig Kenntnisse von Phyton und den damti verbundenen Eigenheiten. Du musst als erstes Python installieren und bei der Installtion darauf achten, dass du ankilckst, dass eine global path variable erstellt wird. Um Python nutzen zu können, musst du eine virtual enviornment anlegen (venv). Nachdem du diese aktiviert hast, musst du die Bibliotheken in requirements.txt installieren. Nun kannst du das Dokument start.py über die Konsole ausführen. Es kann sein, dass dies zu einem Fehler führt, weil Windows das Asuführen von Skripten verhindert. Diese Einstellungen müssen dann gegebenenfalls von dir angepasst werden. 
-Das ist natürlich sehr kurz gefasst. Aber zu allen diesen Schritten gibt es unzählige Anleiten auf diversen Internetseiten, da es sich um basic Dinge handelt. 
+Momentan ist dies etwas umständlich, wenn du bisher keine Erfahrung mit Python hast. Die grundsätzlichen Schritte sind folgende:
+1) Installiere python über die offzielle Seite und wähle die aktuellste Version. Achte darauf, bei der Installation auszuwählen, dass du die Option global path erstellen auswählst.
+2) Erstelle eine virtuelle Umgebung (virtual environment) möglichst in demselben Ordner, in den du die Dateien aus diesem repository lädst.
+3) Aktiviere deine virtual environment und installiere die Bibliotheken in requirements.txt.
+4) Führe nun start.py aus und das Programm startet. 
+Es handelt sich bei allen diesen Schritten um klassiche Schritte die auf sämtliche Programme in python zutreffen, weshalb es gute Anleitungen dafür gibt.
